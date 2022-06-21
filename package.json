@@ -18,10 +18,16 @@
   },
   "homepage": "https://github.com/dmeadows8585/space-finder-backend#readme",
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "aws-cdk": "^2.28.1",
     "aws-cdk-lib": "^2.28.1",
     "constructs": "^10.1.42",
+    "esbuild": "^0.14.47",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2"
   }
 }
